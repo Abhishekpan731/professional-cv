@@ -84,7 +84,7 @@ IF RECRUITER CONTACT: abhishekbit1966@gmail.com
 TOTAL EXPERIENCE: 6 years 5 months (July 2019 → December 2025)
 
 NOTICE PERIOD:
-"I am currently serving my notice period, my last working day is 4th January."
+"I am currently serving my notice period."
 
 COMPENSATION (India, External Product):
   Current CTC: ₹21.5 LPA
@@ -131,7 +131,7 @@ selected CV and cite the CV.
 ================================================================================
 
 ☑ Identify recruiter email & job location → choose CV & phone (cite CV used)
-☑ State Total Experience and Notice period + last working day
+☑ State Total Experience and Notice period (serving notice)
 ☑ Include compensation line exactly (CTC/offer/expected) per mapping
 ☑ Attach correct CV link (show the URL)
 ☑ Add one-line short skills
@@ -149,7 +149,7 @@ INDIA — PRODUCT ROLE (Example):
 Dear [Name],
 
 I'm sharing my CV for the [Role]. Total Experience: 6 years 5 months. I am
-currently serving my notice period; my last working day is 4th January.
+currently serving my notice period.
 
 My current CTC is ₹21.5 LPA, I have an offer of ₹33 LPA fixed, and I am
 expecting ₹35 LPA fixed.

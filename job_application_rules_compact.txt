@@ -27,7 +27,7 @@ Gurugram:  https://abhishek-cv-professional.netlify.app/cv_gurugram.html
 ═══════════════════════════════════════════════════════════════════════════════
 
 Total Experience: 6 years 5 months (July 2019 → Dec 2025)
-Notice: "I am currently serving my notice period, my last working day is 4th January."
+Notice: "I am currently serving my notice period."
 
 ═══════════════════════════════════════════════════════════════════════════════
 4) COMPENSATION (India Product roles only)
@@ -61,9 +61,9 @@ SQL, OAuth2, Microservices, Git, CI/CD, Prometheus, Grafana.
 
 INDIA PRODUCT:
 Dear [Name],
-I'm sharing my CV for the [Role]. Total Experience: 6 years 5 months. I am 
-currently serving my notice period; my last working day is 4th January.
-My current CTC is ₹21.5 LPA, I have an offer of ₹33 LPA fixed, and I am 
+I'm sharing my CV for the [Role]. Total Experience: 6 years 5 months. I am
+currently serving my notice period.
+My current CTC is ₹21.5 LPA, I have an offer of ₹33 LPA fixed, and I am
 expecting ₹35 LPA fixed.
 Short skills: [paste skills above]
 Attached CV: [URL] | Phone: [mapped] | Address: [mapped]
@@ -89,7 +89,7 @@ Regards, Abhishek Pandey
 ═══════════════════════════════════════════════════════════════════════════════
 
 ☑ Identify email → choose correct CV & phone
-☑ State experience (6y 5m) & notice period (last day: 4th Jan)
+☑ State experience (6y 5m) & notice period (serving notice)
 ☑ Include compensation (India product) or international statement
 ☑ Attach correct Netlify CV URL
 ☑ Add short skills

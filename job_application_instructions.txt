@@ -1,0 +1,276 @@
+================================================================================
+JOB APPLICATION INSTRUCTIONS - ABHISHEK PANDEY
+Last Updated: March 10, 2026
+================================================================================
+
+SUMMARY:
+Pick CV & phone by recruiter email first; if the job/company is explicitly Pune,
+prefer the Pune CV & Pune address. Maintain application rules (product/service/
+international/internal), notice period, compensation, and skills as before.
+
+================================================================================
+1) CV FILES & NETLIFY URLS (Always confirm loaded before composing)
+================================================================================
+
+PUNE CV:
+  Use when: Recruiter email is abhishekpan731@gmail.com OR job indicates Pune
+  Netlify URL: https://abhishek-cv-professional.netlify.app/cv_pune.html
+  Phone: +91 7317394141
+  Email: abhishekpan731@gmail.com
+  Address: Pune, Maharashtra, India
+
+BENGALURU CV (731 variant):
+  Use when: Recruiter email is abhishekbit731@gmail.com
+  Netlify URL: https://abhishek-cv-professional.netlify.app/cv_bengaluru.html
+  Phone: +91 9310796664
+  Email: abhishekbit731@gmail.com
+  Address: 
+    - If Noida/Delhi/Gurugram → Greater Noida, Uttar Pradesh
+    - Otherwise → Whitefield, Bengaluru 560066
+    - International → Whitefield, Bengaluru, Karnataka 560066, India
+
+HYDERABAD CV (1966 variant):
+  Use when: Recruiter email is abhishekbit1966@gmail.com
+  Netlify URL: https://abhishek-cv-professional.netlify.app/cv_hyderabad.html
+  Phone: +91 8077974026
+  Email: abhishekbit1966@gmail.com
+  Address: Hyderabad, Telangana, India (always)
+
+GURUGRAM CV (NCR variant):
+  Use when: Job location is Delhi NCR/Gurugram/Noida
+  Netlify URL: https://abhishek-cv-professional.netlify.app/cv_gurugram.html
+  Phone: +91 9310796664
+  Email: abhishekbit731@gmail.com
+  Address: Gurugram, Haryana, India
+
+OVERRIDE RULE:
+If job/company is explicitly Pune-based, prefer Pune CV & address even if
+recruiter email is different — but still mention which email you used to send.
+
+STATE EXPLICITLY in each reply:
+- Which CV link was attached (show the URL)
+- Which file was used (Pune/Bengaluru/Hyderabad/Gurugram)
+- Matching phone number
+
+================================================================================
+2) CV ↔ EMAIL ↔ PHONE ↔ ADDRESS MAPPING (Use these exactly)
+================================================================================
+
+IF RECRUITER CONTACT: abhishekpan731@gmail.com
+  → Use: Pune CV
+  → URL: https://abhishek-cv-professional.netlify.app/cv_pune.html
+  → Phone: +91 7317394141
+  → Address: Pune, Maharashtra, India
+
+IF RECRUITER CONTACT: abhishekbit731@gmail.com
+  → Use: Bengaluru CV
+  → URL: https://abhishek-cv-professional.netlify.app/cv_bengaluru.html
+  → Phone: +91 9310796664
+  → Address mapping:
+     • Noida/Delhi/Gurugram → Greater Noida, Uttar Pradesh
+     • Other cities/generic India → Whitefield, Bengaluru 560066
+     • International roles → Whitefield, Bengaluru, Karnataka 560066, India
+
+IF RECRUITER CONTACT: abhishekbit1966@gmail.com
+  → Use: Hyderabad CV
+  → URL: https://abhishek-cv-professional.netlify.app/cv_hyderabad.html
+  → Phone: +91 8077974026
+  → Address: Hyderabad, Telangana, India (always)
+
+================================================================================
+3) EXPERIENCE / NOTICE / DATES / COMPENSATION (Always include)
+================================================================================
+
+TOTAL EXPERIENCE: 6 years 5 months (July 2019 → December 2025)
+
+NOTICE PERIOD:
+"I am currently serving my notice period, my last working day is 4th January."
+
+COMPENSATION (India, External Product):
+  Current CTC: ₹21.5 LPA
+  Offer in hand: ₹33 LPA fixed
+  Expected: ₹35 LPA fixed
+
+EXACT WORDING TO USE:
+"My current CTC is ₹21.5 LPA, I have an offer of ₹33 LPA fixed, and I am
+expecting ₹35 LPA fixed."
+
+SERVICE-BASED (India): Politely decline the opportunity.
+
+INTERNATIONAL ROLES: Always apply; say:
+"Current CTC in India is ₹21.5 LPA; open for discussion based on location
+and role. Open to relocation and willing to work globally."
+
+INTERNAL ORACLE: Always apply; use Oracle/internal portal and attach
+Bengaluru CV unless internal format asked. Do not volunteer compensation
+unless asked.
+
+================================================================================
+4) PRODUCT vs SERVICE RULE (Enforced)
+================================================================================
+
+✓ PRODUCT-BASED (India) → Apply using mapped CV and rules above
+✗ SERVICE-BASED (India) → Decline politely
+✓ INTERNATIONAL → Always apply (ignore product/service)
+✓ INTERNAL ORACLE → Always apply (attach Bengaluru CV by default)
+
+================================================================================
+5) SHORT SKILL-SET (Use for quick replies/emails)
+================================================================================
+
+Use this exact short set when asked for compact skills line:
+
+Java, Spring Boot, React, Angular, AWS, Docker, Kubernetes, Kafka, REST APIs,
+SQL, OAuth2, Microservices, Git, CI/CD, Prometheus, Grafana.
+
+If recruiter asks for detailed skills, attach full technical section from
+selected CV and cite the CV.
+
+================================================================================
+6) REPLY FORMAT CHECKLIST (AI must follow for every application)
+================================================================================
+
+☑ Identify recruiter email & job location → choose CV & phone (cite CV used)
+☑ State Total Experience and Notice period + last working day
+☑ Include compensation line exactly (CTC/offer/expected) per mapping
+☑ Attach correct CV link (show the URL)
+☑ Add one-line short skills
+☑ For international: add "Open to relocation and willing to work globally"
+☑ If service-based (India): decline politely with short reason
+☑ If internal: apply via internal portal and attach Bengaluru CV
+☑ Close with contact details (phone + email + chosen address)
+
+================================================================================
+7) WORDING EXAMPLES (Copy-paste friendly)
+================================================================================
+
+INDIA — PRODUCT ROLE (Example):
+
+Dear [Name],
+
+I'm sharing my CV for the [Role]. Total Experience: 6 years 5 months. I am
+currently serving my notice period; my last working day is 4th January.
+
+My current CTC is ₹21.5 LPA, I have an offer of ₹33 LPA fixed, and I am
+expecting ₹35 LPA fixed.
+
+Short skills: Java, Spring Boot, React, Angular, AWS, Docker, Kubernetes,
+Kafka, REST APIs, SQL, OAuth2, Microservices, Git, CI/CD, Prometheus, Grafana.
+
+Attached CV: [Pune/Bengaluru/Hyderabad CV URL]
+Phone: [mapped phone]
+Address: [mapped address]
+
+Regards,
+Abhishek Pandey
+
+---
+
+INDIA — SERVICE ROLE (Decline):
+
+Dear [Name],
+
+Thank you for reaching out. I appreciate the opportunity; however, I am
+focusing on product engineering roles at this time and must respectfully
+decline. Wishing you the best in your search.
+
+Regards,
+Abhishek Pandey
+
+---
+
+INTERNATIONAL ROLE (Example):
+
+Dear [Name],
+
+Sharing my CV for the role. Total Experience: 6 years 5 months. I'm open to
+relocation and willing to work globally. Current CTC in India is ₹21.5 LPA;
+compensation is open for discussion based on role and location.
+
+Short skills: Java, Spring Boot, React, Angular, AWS, Docker, Kubernetes,
+Kafka, REST APIs, SQL, OAuth2, Microservices, Git, CI/CD, Prometheus, Grafana.
+
+Attached: [CV URL]
+Phone: [mapped phone]
+Address: Whitefield, Bengaluru, Karnataka 560066, India
+
+Regards,
+Abhishek Pandey
+
+================================================================================
+8) IMPLEMENTATION NOTES FOR AI (Operational)
+================================================================================
+
+• Always include the CV file reference when referring to content:
+  - Pune CV: https://abhishek-cv-professional.netlify.app/cv_pune.html
+  - Bengaluru CV: https://abhishek-cv-professional.netlify.app/cv_bengaluru.html
+  - Hyderabad CV: https://abhishek-cv-professional.netlify.app/cv_hyderabad.html
+  - Gurugram CV: https://abhishek-cv-professional.netlify.app/cv_gurugram.html
+
+• If job posting explicitly states Pune, prefer Pune CV & phone regardless
+  of recruiter email; still mention which email you are sending from.
+
+• Do not mix phones/addresses across CVs — phone must match chosen CV.
+
+• If recruiter explicitly asks for different CV or format, follow their request.
+
+• If contradictory instruction from recruiter (e.g., request Pune CV but want
+  address as Greater Noida) — follow recruiter's request but note inconsistency
+  in short admin comment inside mail (keep records).
+
+================================================================================
+9) QUICK REFERENCE TABLE
+================================================================================
+
+Recruiter Email          | CV to Use    | Netlify URL                           | Phone
+-------------------------|--------------|---------------------------------------|---------------
+abhishekpan731@gmail.com | Pune         | .../cv_pune.html                      | +91 7317394141
+abhishekbit731@gmail.com | Bengaluru    | .../cv_bengaluru.html                 | +91 9310796664
+abhishekbit1966@gmail.com| Hyderabad    | .../cv_hyderabad.html                 | +91 8077974026
+[NCR/Gurugram jobs]      | Gurugram     | .../cv_gurugram.html                  | +91 9310796664
+
+Full Netlify URLs:
+• Pune:      https://abhishek-cv-professional.netlify.app/cv_pune.html
+• Bengaluru: https://abhishek-cv-professional.netlify.app/cv_bengaluru.html
+• Hyderabad: https://abhishek-cv-professional.netlify.app/cv_hyderabad.html
+• Gurugram:  https://abhishek-cv-professional.netlify.app/cv_gurugram.html
+
+================================================================================
+10) LINKEDIN PROFILE (Same across all CVs)
+================================================================================
+
+LinkedIn: https://www.linkedin.com/in/abhishekbit96/
+
+Use this LinkedIn URL in all applications regardless of which CV is used.
+
+================================================================================
+11) PROFESSIONAL HIGHLIGHTS (Use when needed)
+================================================================================
+
+• Current Role: Senior Software Developer at Oracle Corporation
+• Experience: 6 years 5 months in Java, Spring Boot, Microservices, AWS, K8s
+• Specialization: Oracle 23ai, Vector Search, RAG, GenAI
+• Certifications:
+  - Oracle AI Vector Search Certified Professional (Oct 2025)
+  - Oracle Cloud Infrastructure 2025 Generative AI Professional (Oct 2025)
+  - Oracle Cloud Infrastructure 2025 AI Foundations Associate (Oct 2025)
+• Education: B.Tech in Computer Science from BIT Mesra (2018)
+
+================================================================================
+12) IMPORTANT REMINDERS
+================================================================================
+
+✓ Always verify CV URL before sending
+✓ Always match phone number to CV used
+✓ Always state which CV was attached in your reply
+✓ Always include notice period and last working day
+✓ Always include compensation details for India product roles
+✓ Never apply to service-based companies in India
+✓ Always apply to international roles regardless of company type
+✓ Always apply to internal Oracle positions
+✓ Keep LinkedIn URL consistent across all applications
+
+================================================================================
+END OF INSTRUCTIONS
+================================================================================
+

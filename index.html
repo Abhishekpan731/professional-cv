@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Abhishek Pandey - Senior Software Developer with 6+ years of experience in Java, Spring Boot, AWS, Kubernetes, Microservices, and System Design">
+    <meta name="keywords" content="Senior Software Developer, Java, Spring Boot, AWS, Kubernetes, Docker, Microservices, System Design, Oracle, Cloud Architecture">
+    <meta name="author" content="Abhishek Pandey">
+    <meta property="og:title" content="Abhishek Pandey - Senior Software Developer">
+    <meta property="og:description" content="Senior Software Developer specializing in Cloud-Native Solutions, Microservices Architecture, and AI Integration">
+    <meta property="og:type" content="website">
+    <title>Abhishek Pandey - Senior Software Developer | Java, AWS, Kubernetes Expert</title>
+    
+    <style>
+        /* ===== CSS RESET & BASE STYLES ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-color: #2E75B6;
+            --secondary-color: #1F3864;
+            --text-dark: #2c3e50;
+            --text-light: #595959;
+            --bg-light: #f8f9fa;
+            --bg-white: #ffffff;
+            --border-color: #e0e0e0;
+            --accent-color: #0066cc;
+            --highlight-bg: #e8f4f8;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+        }
+        
+        /* ===== CONTAINER & LAYOUT ===== */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: var(--bg-white);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* ===== HEADER ===== */
+        header {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+        }
+        
+        .title {
+            font-size: 1.2rem;
+            font-weight: 400;
+            opacity: 0.95;
+            margin-bottom: 1.5rem;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            font-size: 0.95rem;
+        }
+        
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        
+        .contact-info a:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+        
+        /* ===== MAIN CONTENT ===== */
+        main {
+            padding: 2rem;
+        }
+        
+        section {
+            margin-bottom: 2.5rem;
+        }
+        
+        /* ===== HEADINGS ===== */
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        h3 {
+            color: var(--secondary-color);
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
+        
+        h4 {
+            color: var(--text-dark);
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
+        
+        /* ===== TEXT STYLES ===== */
+        p {
+            margin-bottom: 1rem;
+            line-height: 1.7;
+        }
+        
+        .company-info {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+        
+        .date {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+        
+        strong, .keyword {
+            color: var(--secondary-color);
+            font-weight: 600;
+        }
+        
+        /* ===== LISTS ===== */
+        ul {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        ul li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.7rem;
+            line-height: 1.6;
+        }
+        
+        ul li:before {
+            content: "▸";
+            color: var(--primary-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        /* ===== COMPETENCIES GRID ===== */
+        .competencies {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 0.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .competencies li {
+            background-color: var(--highlight-bg);
+            padding: 0.6rem 1rem 0.6rem 2rem;
+            border-radius: 5px;
+            font-size: 0.95rem;
+        }
+
+        /* ===== EXPERIENCE SECTION ===== */
+        .job {
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .job:last-child {
+            border-bottom: none;
+        }
+
+        .job-header {
+            margin-bottom: 1rem;
+        }
+
+        /* ===== SKILLS SECTION ===== */
+        .skills-grid {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .skill-category {
+            background-color: var(--bg-light);
+            padding: 1rem;
+            border-radius: 5px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .skill-category h4 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .skill-category p {
+            margin-bottom: 0;
+            line-height: 1.6;
+        }
+
+        /* ===== PROJECT CARDS ===== */
+        .project {
+            background-color: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .project h3 {
+            color: var(--accent-color);
+        }
+
+        /* ===== ACHIEVEMENTS ===== */
+        .achievements li {
+            background-color: var(--highlight-bg);
+            padding: 0.8rem 1rem 0.8rem 2rem;
+            margin-bottom: 0.8rem;
+            border-radius: 5px;
+            border-left: 3px solid var(--primary-color);
+        }
+
+        /* ===== PRINT STYLES ===== */
+        @media print {
+            body {
+                background-color: white;
+                font-size: 11pt;
+            }
+
+            .container {
+                box-shadow: none;
+                max-width: 100%;
+            }
+
+            header {
+                background: white;
+                color: black;
+                border-bottom: 2px solid var(--primary-color);
+            }
+
+            header h1 {
+                color: var(--primary-color);
+            }
+
+            .contact-info a {
+                color: black;
+            }
+
+            section {
+                page-break-inside: avoid;
+            }
+
+            h2 {
+                page-break-after: avoid;
+            }
+        }
+
+        /* ===== RESPONSIVE DESIGN ===== */
+        @media (max-width: 768px) {
+            html {
+                font-size: 14px;
+            }
+
+            header {
+                padding: 2rem 1rem;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            main {
+                padding: 1.5rem;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .competencies {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.75rem;
+            }
+
+            h2 {
+                font-size: 1.3rem;
+            }
+
+            main {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <header>
+            <h1>ABHISHEK PANDEY</h1>
+            <div class="title">Senior Software Developer | Oracle & DDN</div>
+            <div class="contact-info">
+                <span>📍 Bengaluru, Karnataka, India</span>
+                <span>📱 +91-9310796664</span>
+                <a href="mailto:abhishekbit731@gmail.com">✉️ abhishekbit731@gmail.com</a>
+                <a href="https://www.linkedin.com/in/abhishekbit96/" target="_blank">🔗 linkedin.com/in/abhishekbit96</a>
+            </div>
+        </header>
+
+        <!-- MAIN CONTENT -->
+        <main>
+            <!-- PROFESSIONAL SUMMARY -->
+            <section id="summary">
+                <h2>Professional Summary</h2>
+                <p>
+                    Senior Software Developer with <strong>6+ years</strong> of expertise in architecting and delivering enterprise-scale
+                    cloud-native solutions. Proven track record of transforming monolithic applications into <strong>50+ microservices</strong>,
+                    processing <strong>1M+ daily transactions</strong> with <strong>99.9% uptime</strong>. Expert in <strong>Java</strong>,
+                    <strong>Spring Boot</strong>, <strong>AWS</strong>, <strong>Kubernetes</strong>, and system design (<strong>HLD/LLD</strong>).
+                    Specialized in <strong>AI integration</strong>, performance optimization, and security compliance
+                    (<strong>OAuth2</strong>, <strong>SSO</strong>, <strong>SAML</strong>). Delivered <strong>$50K+ cost savings</strong>
+                    through automation and reduced <strong>API response times by 70%</strong> through strategic optimization.
+                </p>
+            </section>
+
+            <!-- CORE COMPETENCIES -->
+            <section id="competencies">
+                <h2>Core Competencies</h2>
+                <ul class="competencies">
+                    <li>System Design (<strong>HLD/LLD</strong>) • <strong>Microservices Architecture</strong> • Cloud Platforms (<strong>AWS</strong>, <strong>OCI</strong>) • <strong>Java</strong> (8/11/17/21)</li>
+                    <li><strong>Spring Framework</strong> & <strong>Spring Boot</strong> • <strong>Docker</strong> & <strong>Kubernetes</strong> • <strong>CI/CD</strong> (<strong>Jenkins</strong>, <strong>GitLab</strong>) • <strong>Apache Kafka</strong></li>
+                    <li><strong>AI Integration</strong> (<strong>OpenAI</strong>, <strong>Claude</strong>, <strong>Grok</strong>) • <strong>RESTful APIs</strong> • Database Optimization (<strong>Oracle</strong>, <strong>MySQL</strong>)</li>
+                    <li>Application Security (<strong>OAuth2</strong>, <strong>JWT</strong>, <strong>SSO</strong>, <strong>SAML</strong>) • Performance Engineering • <strong>DevOps</strong> & Automation</li>
+                </ul>
+            </section>
+
+            <!-- PROFESSIONAL EXPERIENCE -->
+            <section id="experience">
+                <h2>Professional Experience</h2>
+
+                <!-- Oracle Corporation -->
+                <article class="job">
+                    <div class="job-header">
+                        <h3>Senior Software Developer</h3>
+                        <div><strong>Oracle Corporation, Bangalore</strong> <span class="date">| January 2022 – Present</span></div>
+                        <div class="company-info">Product: Oracle Financial Services Analytical Application (OFSAA)</div>
+                    </div>
+                    <ul>
+                        <li>Architected universal platform achieving 100% compatibility across <strong>Tomcat</strong>, <strong>WebLogic</strong>, <strong>WebSphere</strong>, <strong>AWS</strong>, and <strong>OCI</strong>; led transformation from monolith to <strong>50+ cloud-native microservices</strong> handling <strong>1M+ daily transactions</strong> with <strong>99.9% uptime</strong></li>
+                        <li>Designed and integrated Oracle Code Assist using <strong>OpenAI</strong>, <strong>Grok</strong>, and <strong>Claude</strong> models via unified <strong>API gateway</strong>; reduced inference latency by <strong>45%</strong> through intelligent caching and request batching</li>
+                        <li>Orchestrated multi-cloud deployments (<strong>AWS</strong> & <strong>OCI</strong>) for <strong>100+ containerized services</strong> using <strong>Docker</strong>, <strong>Kubernetes</strong>, and <strong>Helm</strong>; established <strong>CI/CD pipelines</strong> reducing deployment time from 2 hours to <strong>15 minutes</strong></li>
+                        <li>Developed custom deployment automation platform eliminating InstallAnywhere dependency; reduced installation time from 4 hours to <strong>30 minutes</strong>, achieving <strong>$50K+ annual licensing cost savings</strong></li>
+                        <li>Achieved <strong>70% reduction in API response times</strong> through database query optimization, <strong>Redis</strong> caching, and asynchronous processing; reduced GC pause times by <strong>50%</strong> via G1GC tuning</li>
+                        <li>Spearheaded <strong>HLD/LLD</strong> for distributed systems serving <strong>100K+ users</strong>; designed <strong>RESTful API gateway</strong> processing <strong>5M+ daily requests</strong> with circuit breakers and rate limiting</li>
+                        <li>Implemented event-driven architecture using <strong>Apache Kafka</strong>, reducing system latency by <strong>60%</strong>; deployed distributed tracing and monitoring (<strong>ELK</strong>, <strong>Prometheus</strong>, <strong>Grafana</strong>)</li>
+                        <li>Secured ecosystem for <strong>50K+ active users</strong> using <strong>OAuth2</strong>, <strong>JWT</strong>, <strong>SAML</strong>, and <strong>SSO</strong>; achieved <strong>SOC 2 Type II compliance</strong> with <strong>AES-256 encryption</strong> and <strong>OWASP</strong> Top 10 remediation</li>
+                        <li>Built production-grade SPAs using <strong>React</strong>, <strong>Angular</strong>, and <strong>Redux</strong> with real-time dashboards; optimized bundle sizes by <strong>40%</strong> achieving Lighthouse scores of <strong>95+</strong></li>
+                        <li>Mentored <strong>8 engineers</strong> on <strong>microservices architecture</strong>, design patterns, and best practices</li>
+                    </ul>
+                </article>
+
+                <!-- Wipro Limited -->
+                <article class="job">
+                    <div class="job-header">
+                        <h3>Java Full Stack Developer</h3>
+                        <div><strong>Wipro Limited, Bengaluru</strong> <span class="date">| September 2019 – January 2022</span></div>
+                        <div class="company-info">Client: FedEx (Product: Dock Maintenance Tool)</div>
+                    </div>
+                    <ul>
+                        <li>Led <strong>HLD</strong> and <strong>LLD</strong> design for backend and frontend components ensuring scalability and maintainability</li>
+                        <li>Developed robust <strong>RESTful APIs</strong> using <strong>Spring Boot</strong> in three-layer architecture with comprehensive error handling and input validation</li>
+                        <li>Migrated core application components to <strong>AWS</strong>, enhancing scalability and uptime using <strong>AWS services</strong> for high availability</li>
+                        <li>Leveraged <strong>Docker</strong> for containerization and <strong>Kubernetes</strong> for orchestration; utilized <strong>Helm</strong> for efficient application management</li>
+                        <li>Integrated <strong>OAuth2</strong>, <strong>SAML</strong>, and <strong>SSO</strong> for secure authentication adhering to <strong>OWASP</strong> standards</li>
+                        <li>Delivered streamlined facility management tool achieving <strong>80% reduction in manual effort</strong> for dock maintenance processes</li>
+                        <li>Optimized system performance implementing efficient data structures and design patterns (Singleton, Dependency Injection)</li>
+                        <li>Led development team fostering collaboration through pair programming and code reviews</li>
+                        <li>Consistently delivered high-priority user stories within deadlines, earning client appreciation</li>
+                    </ul>
+                </article>
+            </section>
+
+            <!-- KEY PROJECTS -->
+            <section id="projects">
+                <h2>Key Projects</h2>
+
+                <article class="project">
+                    <h3>AI Cluster - Local Multi-Agent System</h3>
+                    <p>
+                        Designed and developed a highly scalable local <strong>AI cluster system</strong> with multi-agent orchestration
+                        for task management and resource monitoring. Implemented <strong>FastAPI</strong> <strong>REST APIs</strong> and a
+                        <strong>Streamlit</strong> dashboard for real-time interaction and metrics visualization. Integrated dynamic agent
+                        scaling, CPU/memory/disk monitoring, and efficient task queueing for unlimited parallel processing.
+                    </p>
+                    <p><strong>Tech Stack:</strong> <strong>Python</strong>, <strong>FastAPI</strong>, <strong>Ray</strong>, <strong>Redis</strong>, <strong>Docker</strong>, <strong>Kubernetes</strong>, <strong>Streamlit</strong></p>
+                </article>
+
+                <article class="project">
+                    <h3>Universal CloudOS</h3>
+                    <p>
+                        Architected an ambitious cross-platform operating system with multiple editions covering Desktop, Mobile, Tablet,
+                        TV, Embedded, Server, and Gaming platforms. Designed hybrid microkernel architecture sharing 80%+ codebase with
+                        platform-specific adaptations for each device category. Incorporated universal UI framework, seamless handoff
+                        features, and cloud synchronization across devices.
+                    </p>
+                    <p><strong>Tech Stack:</strong> Microkernel architecture, multi-platform UI framework, <strong>CI/CD</strong> pipelines</p>
+                </article>
+            </section>
+
+            <!-- PUBLICATIONS & ARTICLES -->
+            <section id="publications">
+                <h2>Publications & Articles</h2>
+
+                <article>
+                    <h4>🚀 Scaling Live Stream Video: YouTube Instagram Disney+ Hotstar JioCinema 🎥</h4>
+                    <div class="company-info">Published on LinkedIn | October 2024</div>
+                    <p>
+                        Technical deep-dive article exploring the architecture and engineering behind large-scale live streaming platforms.
+                        Covered topics including CDN optimization, adaptive bitrate streaming, load balancing, and real-time data processing
+                        for millions of concurrent users.
+                    </p>
+                </article>
+            </section>
+
+            <!-- TECHNICAL SKILLS -->
+            <section id="skills">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Programming Languages</h4>
+                        <p><strong>Java</strong> (8/11/17/21), <strong>JavaScript</strong>, <strong>Python</strong>, <strong>PL/SQL</strong>, <strong>TypeScript</strong></p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Frameworks & Libraries</h4>
+                        <p><strong>Spring Framework</strong>, <strong>Spring Boot</strong>, <strong>Spring AI</strong>, <strong>Hibernate</strong>, <strong>React</strong>, <strong>Angular</strong>, <strong>Redux</strong>, <strong>Node.js</strong>, <strong>FastAPI</strong></p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>AI & Integration</h4>
+                        <p><strong>LangChain4j</strong>, <strong>Semantic Kernel</strong>, <strong>OpenAI API</strong>, <strong>Claude</strong>, <strong>Grok</strong>, <strong>RAG Pipelines</strong>, <strong>Vector Search</strong>, <strong>LLM</strong> Integration</p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Cloud Platforms</h4>
+                        <p><strong>Amazon Web Services (AWS)</strong>, <strong>Oracle Cloud Infrastructure (OCI)</strong>, Multi-cloud Architecture</p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Containerization & Orchestration</h4>
+                        <p><strong>Docker</strong>, <strong>Kubernetes</strong>, <strong>Helm</strong>, Container Orchestration</p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Databases</h4>
+                        <p><strong>Oracle Database</strong>, <strong>MySQL</strong>, <strong>PostgreSQL</strong>, <strong>Redis</strong>, <strong>SQL</strong>, <strong>NoSQL</strong></p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Messaging & Streaming</h4>
+                        <p><strong>Apache Kafka</strong>, Event-Driven Architecture</p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>CI/CD & DevOps</h4>
+                        <p><strong>Jenkins</strong>, <strong>GitLab CI/CD</strong>, <strong>Maven</strong>, <strong>Gradle</strong>, <strong>Infrastructure as Code (IaC)</strong>, <strong>Terraform</strong></p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Web Servers</h4>
+                        <p><strong>Apache Tomcat</strong>, <strong>Nginx</strong>, <strong>WebLogic</strong>, <strong>WebSphere</strong></p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Monitoring & Logging</h4>
+                        <p><strong>Prometheus</strong>, <strong>Grafana</strong>, <strong>ELK Stack</strong> (<strong>Elasticsearch</strong>, <strong>Logstash</strong>, <strong>Kibana</strong>), Distributed Tracing</p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Security & Compliance</h4>
+                        <p><strong>OAuth2</strong>, <strong>JWT</strong>, <strong>SSO</strong>, <strong>SAML</strong>, <strong>OWASP</strong> Standards, <strong>LDAP</strong>, <strong>Active Directory</strong>, <strong>AES-256 Encryption</strong>, <strong>SOC 2</strong></p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Testing Frameworks</h4>
+                        <p><strong>JUnit</strong>, <strong>Mockito</strong>, <strong>Cucumber</strong>, <strong>Espresso</strong>, Unit Testing</p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Version Control</h4>
+                        <p><strong>Git</strong>, <strong>SVN</strong>, <strong>GitHub</strong>, <strong>GitLab</strong>, <strong>Bitbucket</strong></p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Collaboration Tools</h4>
+                        <p><strong>JIRA</strong>, <strong>Confluence</strong>, <strong>Agile</strong> Project Management</p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Methodologies</h4>
+                        <p><strong>Agile (Scrum)</strong>, System Design (<strong>HLD/LLD</strong>), <strong>Microservices Architecture</strong>, <strong>RESTful Web Services</strong>, Design Patterns</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EDUCATION -->
+            <section id="education">
+                <h2>Education</h2>
+                <article>
+                    <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                    <div><strong>Dr. A.P.J. Abdul Kalam Technical University, Uttar Pradesh</strong> <span class="date">| 2015 – 2019</span></div>
+                </article>
+            </section>
+
+            <!-- PROFESSIONAL TRAINING & CERTIFICATIONS -->
+            <section id="training">
+                <h2>Professional Training & Certifications</h2>
+
+                <article>
+                    <h4>Wipro Academy of Software Excellence (WASE) Trainee</h4>
+                    <div class="company-info">Wipro Limited | March 2019 – September 2019</div>
+                    <ul>
+                        <li>Completed intensive training in <strong>Java</strong> programming, mastering core concepts and enterprise frameworks including <strong>Spring</strong>, <strong>Hibernate</strong>, and <strong>Java EE</strong></li>
+                        <li>Implemented build automation using <strong>Maven</strong> and conducted comprehensive unit testing with <strong>JUnit</strong></li>
+                        <li>Participated in code reviews and debugging sessions, reinforcing software development best practices and design patterns</li>
+                    </ul>
+                </article>
+
+                <article style="margin-top: 1rem;">
+                    <h4>AMCAT Certification</h4>
+                    <div class="company-info">Score: 70 | Validated technical and cognitive skills assessment</div>
+                </article>
+            </section>
+
+            <!-- LANGUAGES -->
+            <section id="languages">
+                <h2>Languages</h2>
+                <p><strong>English</strong> (Professional Proficiency), <strong>Hindi</strong> (Native)</p>
+            </section>
+
+            <!-- KEY ACHIEVEMENTS & IMPACT -->
+            <section id="achievements">
+                <h2>Key Achievements & Impact</h2>
+                <ul class="achievements">
+                    <li>Reduced deployment time by <strong>87.5%</strong> (from 2 hours to 15 minutes) through <strong>CI/CD</strong> pipeline optimization using <strong>Jenkins</strong> and <strong>GitLab</strong></li>
+                    <li>Achieved <strong>$50,000+ annual cost savings</strong> by eliminating third-party licensing through custom automation platform</li>
+                    <li>Improved <strong>API response times by 70%</strong> through strategic performance optimization including <strong>Redis</strong> caching and database query tuning</li>
+                    <li>Successfully led transformation of monolithic application to <strong>50+ microservices architecture</strong> handling <strong>1M+ daily transactions</strong></li>
+                    <li>Achieved <strong>SOC 2 Type II compliance</strong> for enterprise application serving <strong>50,000+ users</strong> with <strong>OAuth2</strong>, <strong>JWT</strong>, and <strong>SAML</strong> security</li>
+                    <li>Reduced <strong>AI inference latency by 45%</strong> through intelligent caching and request optimization for <strong>OpenAI</strong>, <strong>Claude</strong>, and <strong>Grok</strong> models</li>
+                    <li>Optimized frontend bundle sizes by <strong>40%</strong> achieving Lighthouse performance scores of <strong>95+</strong> for <strong>React</strong> and <strong>Angular</strong> applications</li>
+                    <li>Consistently recognized by clients and management for delivering high-priority projects ahead of schedule</li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer style="background-color: var(--bg-light); padding: 2rem; text-align: center; color: var(--text-light); border-top: 1px solid var(--border-color);">
+            <p style="margin-bottom: 0.5rem;">© 2026 Abhishek Pandey. All rights reserved.</p>
+            <p style="margin-bottom: 0; font-size: 0.9rem;">Last Updated: March 2026</p>
+        </footer>
+    </div>
+</body>
+</html>
+

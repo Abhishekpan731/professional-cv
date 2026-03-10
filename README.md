@@ -136,11 +136,11 @@ This CV template is free to use for personal purposes.
 
 ## 🔒 Repository Status
 
-**Visibility:** Private
+**Visibility:** Public (Required for GitHub Pages on free plan)
 **Owner:** Abhishekpan731
 **Deployments:** Public (GitHub Pages + Netlify)
 
-**Note:** While this repository is private, the deployed CV websites are publicly accessible for sharing with recruiters and hiring managers.
+**Note:** The repository must remain public to use GitHub Pages for free. However, you can use Netlify exclusively if you prefer to keep the source code private.
 
 ## 🤝 Contact
 

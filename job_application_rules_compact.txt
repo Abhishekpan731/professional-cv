@@ -1,0 +1,102 @@
+JOB APPLICATION RULES - ABHISHEK PANDEY (Compact Version)
+Last Updated: March 10, 2026
+
+═══════════════════════════════════════════════════════════════════════════════
+1) CV SELECTION BY RECRUITER EMAIL
+═══════════════════════════════════════════════════════════════════════════════
+
+abhishekpan731@gmail.com    → Pune CV      | +91 7317394141 | Pune, Maharashtra
+abhishekbit731@gmail.com    → Bengaluru CV | +91 9310796664 | Whitefield/Greater Noida*
+abhishekbit1966@gmail.com   → Hyderabad CV | +91 8077974026 | Hyderabad, Telangana
+
+*Bengaluru address: Noida/Delhi/Gurugram jobs → Greater Noida, UP; else → Whitefield 560066
+
+OVERRIDE: If job explicitly mentions Pune → use Pune CV regardless of email
+
+═══════════════════════════════════════════════════════════════════════════════
+2) NETLIFY CV URLS (Use these only)
+═══════════════════════════════════════════════════════════════════════════════
+
+Pune:      https://abhishek-cv-professional.netlify.app/cv_pune.html
+Bengaluru: https://abhishek-cv-professional.netlify.app/cv_bengaluru.html
+Hyderabad: https://abhishek-cv-professional.netlify.app/cv_hyderabad.html
+Gurugram:  https://abhishek-cv-professional.netlify.app/cv_gurugram.html
+
+═══════════════════════════════════════════════════════════════════════════════
+3) EXPERIENCE & NOTICE PERIOD (Always state)
+═══════════════════════════════════════════════════════════════════════════════
+
+Total Experience: 6 years 5 months (July 2019 → Dec 2025)
+Notice: "I am currently serving my notice period, my last working day is 4th January."
+
+═══════════════════════════════════════════════════════════════════════════════
+4) COMPENSATION (India Product roles only)
+═══════════════════════════════════════════════════════════════════════════════
+
+Exact wording: "My current CTC is ₹21.5 LPA, I have an offer of ₹33 LPA fixed, 
+and I am expecting ₹35 LPA fixed."
+
+International: "Current CTC in India is ₹21.5 LPA; open for discussion based on 
+location and role. Open to relocation and willing to work globally."
+
+═══════════════════════════════════════════════════════════════════════════════
+5) APPLICATION RULES (Strictly enforce)
+═══════════════════════════════════════════════════════════════════════════════
+
+✓ PRODUCT-BASED (India)    → Apply with mapped CV
+✗ SERVICE-BASED (India)    → Decline politely
+✓ INTERNATIONAL (any type) → Always apply
+✓ INTERNAL ORACLE          → Always apply (use Bengaluru CV)
+
+═══════════════════════════════════════════════════════════════════════════════
+6) SHORT SKILLS (Use in all emails)
+═══════════════════════════════════════════════════════════════════════════════
+
+Java, Spring Boot, React, Angular, AWS, Docker, Kubernetes, Kafka, REST APIs,
+SQL, OAuth2, Microservices, Git, CI/CD, Prometheus, Grafana.
+
+═══════════════════════════════════════════════════════════════════════════════
+7) EMAIL TEMPLATES
+═══════════════════════════════════════════════════════════════════════════════
+
+INDIA PRODUCT:
+Dear [Name],
+I'm sharing my CV for the [Role]. Total Experience: 6 years 5 months. I am 
+currently serving my notice period; my last working day is 4th January.
+My current CTC is ₹21.5 LPA, I have an offer of ₹33 LPA fixed, and I am 
+expecting ₹35 LPA fixed.
+Short skills: [paste skills above]
+Attached CV: [URL] | Phone: [mapped] | Address: [mapped]
+Regards, Abhishek Pandey
+
+INDIA SERVICE (DECLINE):
+Dear [Name],
+Thank you for reaching out. I appreciate the opportunity; however, I am focusing 
+on product engineering roles at this time and must respectfully decline.
+Regards, Abhishek Pandey
+
+INTERNATIONAL:
+Dear [Name],
+Sharing my CV for the role. Total Experience: 6 years 5 months. I'm open to 
+relocation and willing to work globally. Current CTC in India is ₹21.5 LPA; 
+compensation is open for discussion based on role and location.
+Short skills: [paste skills above]
+Attached: [URL] | Phone: [mapped] | Address: Whitefield, Bengaluru 560066, India
+Regards, Abhishek Pandey
+
+═══════════════════════════════════════════════════════════════════════════════
+8) CHECKLIST (Every reply must include)
+═══════════════════════════════════════════════════════════════════════════════
+
+☑ Identify email → choose correct CV & phone
+☑ State experience (6y 5m) & notice period (last day: 4th Jan)
+☑ Include compensation (India product) or international statement
+☑ Attach correct Netlify CV URL
+☑ Add short skills
+☑ Close with phone + email + address (all matching chosen CV)
+☑ State explicitly which CV was used
+
+═══════════════════════════════════════════════════════════════════════════════
+LinkedIn: https://www.linkedin.com/in/abhishekbit96/ (same for all CVs)
+═══════════════════════════════════════════════════════════════════════════════
+

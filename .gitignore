@@ -1,0 +1,20 @@
+# Python files
+*.py
+__pycache__/
+*.pyc
+
+# Word documents
+*.docx
+~$*.docx
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+

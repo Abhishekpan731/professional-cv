@@ -1,9 +1,11 @@
 # Abhishek Pandey - Professional CV Website
 
-A modern, responsive HTML CV/Resume website optimized for personal hosting and professional presentation.
+A modern, responsive HTML CV/Resume website optimized for FAANG applications and professional presentation. This repository contains multiple location-specific CV versions for targeted job applications across India.
 
 ## 🌟 Features
 
+- **Location-Specific Versions**: 4 separate CV files customized for different Indian cities
+- **Dual Deployment**: Hosted on both GitHub Pages and Netlify for redundancy
 - **Single-Page Design**: All content in one clean, scrollable page
 - **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
 - **Print-Friendly**: Special CSS styles for professional printing
@@ -12,94 +14,85 @@ A modern, responsive HTML CV/Resume website optimized for personal hosting and p
 - **ATS-Compatible Content**: Maintains keyword-rich content from original CV
 - **Modern Design**: Professional color scheme with gradient header
 - **Accessible**: Semantic HTML5 structure
+- **Oracle AI Certified**: Includes 2025 Oracle AI certifications (Vector Search, GenAI, AI Foundations)
 
 ## 📁 Files
 
-- `index.html` - Main CV webpage (ready to deploy)
+- `index.html` - Main CV webpage (Bengaluru version)
+- `cv_pune.html` - Pune-specific CV version
+- `cv_bengaluru.html` - Bengaluru-specific CV version
+- `cv_hyderabad.html` - Hyderabad-specific CV version
+- `cv_gurugram.html` - Gurugram/NCR-specific CV version
 - `README.md` - This file with deployment instructions
+- `.gitignore` - Git ignore configuration
 
-## 🚀 Deployment Options
+## 🌐 Live Deployments
 
-### Option 1: GitHub Pages (Recommended - Free)
+### ✅ GitHub Pages (Primary)
+**Repository:** https://github.com/Abhishekpan731/professional-cv
 
-1. **Create a GitHub Repository**
-   ```bash
-   git init
-   git add index.html README.md
-   git commit -m "Initial commit: Professional CV website"
+**Live URLs:**
+- **Main CV (Bengaluru):** https://abhishekpan731.github.io/professional-cv/
+- **Pune Version:** https://abhishekpan731.github.io/professional-cv/cv_pune.html
+- **Bengaluru Version:** https://abhishekpan731.github.io/professional-cv/cv_bengaluru.html
+- **Hyderabad Version:** https://abhishekpan731.github.io/professional-cv/cv_hyderabad.html
+- **Gurugram Version:** https://abhishekpan731.github.io/professional-cv/cv_gurugram.html
+
+### ✅ Netlify (Backup)
+**Site:** abhishek-cv-professional
+
+**Live URLs:**
+- **Main CV (Bengaluru):** https://abhishek-cv-professional.netlify.app/index.html
+- **Pune Version:** https://abhishek-cv-professional.netlify.app/cv_pune.html
+- **Bengaluru Version:** https://abhishek-cv-professional.netlify.app/cv_bengaluru.html
+- **Hyderabad Version:** https://abhishek-cv-professional.netlify.app/cv_hyderabad.html
+- **Gurugram Version:** https://abhishek-cv-professional.netlify.app/cv_gurugram.html
+
+## 📍 Location-Specific CV Versions
+
+Each CV version contains identical professional experience, skills, and certifications, with only the contact information customized for the target location:
+
+| Location | Contact Details | Use Case |
+|----------|----------------|----------|
+| **Pune** | +91-7317394141, abhishekpan731@gmail.com | Jobs in Pune, Maharashtra |
+| **Bengaluru** | +91-9310796664, abhishekbit731@gmail.com | Jobs in Bengaluru, Karnataka |
+| **Hyderabad** | +91-8077974026, abhishekbit1966@gmail.com | Jobs in Hyderabad, Telangana |
+| **Gurugram** | +91-9310796664, abhishekbit731@gmail.com | Jobs in Delhi NCR, Haryana |
+
+## 🎯 Usage Recommendations
+
+- **For FAANG Applications:** Use the location-specific version matching the job location
+- **For Remote Roles:** Use the main Bengaluru version (index.html)
+- **For Recruiters:** Share the GitHub Pages URL for professional presentation
+- **For Quick Access:** Use Netlify URLs as backup if GitHub Pages is slow
+
+## 💼 Professional Highlights
+
+- **Current Role:** Senior Software Developer at Oracle Corporation
+- **Experience:** 5+ years in Java, Spring Boot, Microservices, AWS, Kubernetes
+- **Specialization:** Oracle 23ai, Vector Search, RAG, GenAI
+- **Certifications:**
+  - Oracle AI Vector Search Certified Professional (Oct 2025)
+  - Oracle Cloud Infrastructure 2025 Generative AI Professional (Oct 2025)
+  - Oracle Cloud Infrastructure 2025 AI Foundations Associate (Oct 2025)
+- **Education:** B.Tech in Computer Science from BIT Mesra (2018)
+
+## 🎨 Customization Guide
+
+### Creating New Location Versions
+To create a new location-specific CV:
+1. Copy any existing CV file (e.g., `cp index.html cv_newcity.html`)
+2. Edit the contact information section (lines 337-342):
+   ```html
+   <div class="contact-info">
+       <span>📍 New City, State, India</span>
+       <span>📱 +91-XXXXXXXXXX</span>
+       <a href="mailto:your.email@example.com">✉️ your.email@example.com</a>
+       <a href="https://www.linkedin.com/in/abhishekbit96/">🔗 linkedin.com/in/abhishekbit96</a>
+   </div>
    ```
-
-2. **Push to GitHub**
-   ```bash
-   # Create a new repository on GitHub first, then:
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-3. **Enable GitHub Pages**
-   - Go to your repository on GitHub
-   - Click **Settings** → **Pages**
-   - Under "Source", select **main** branch
-   - Click **Save**
-   - Your site will be live at: `https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/`
-
-### Option 2: Netlify (Free, Easy Drag & Drop)
-
-1. Go to [netlify.com](https://www.netlify.com/)
-2. Sign up for a free account
-3. Drag and drop your `index.html` file to the Netlify dashboard
-4. Your site will be live instantly with a URL like: `https://random-name.netlify.app`
-5. **Optional**: Configure custom domain in Site Settings
-
-### Option 3: Vercel (Free, Fast Deployment)
-
-1. Install Vercel CLI:
-   ```bash
-   npm install -g vercel
-   ```
-
-2. Deploy:
-   ```bash
-   vercel
-   ```
-
-3. Follow the prompts, and your site will be live at: `https://your-project.vercel.app`
-
-### Option 4: Traditional Web Hosting
-
-1. Upload `index.html` to your web hosting provider via FTP/SFTP
-2. Place it in the `public_html` or `www` directory
-3. Access via your domain: `https://yourdomain.com/index.html`
-
-## 🎨 Customization
-
-### Update Contact Information
-Edit the header section in `index.html`:
-```html
-<div class="contact-info">
-    <span>📍 Your Location</span>
-    <span>📱 Your Phone</span>
-    <a href="mailto:your.email@example.com">✉️ your.email@example.com</a>
-    <a href="https://linkedin.com/in/yourprofile">🔗 linkedin.com/in/yourprofile</a>
-</div>
-```
-
-### Change Color Scheme
-Modify CSS variables in the `<style>` section:
-```css
-:root {
-    --primary-color: #2E75B6;      /* Main blue color */
-    --secondary-color: #1F3864;    /* Dark blue */
-    --accent-color: #0066cc;       /* Accent color */
-}
-```
-
-### Add/Remove Sections
-Each section is wrapped in `<section>` tags. You can:
-- Reorder sections by moving the entire `<section>` block
-- Remove sections by deleting the `<section>` block
-- Add new sections following the existing structure
+3. Commit and push to GitHub
+4. The new version will be automatically deployed
 
 ## 📱 Responsive Breakpoints
 
@@ -141,13 +134,30 @@ The CV includes print-optimized styles. To print:
 
 This CV template is free to use for personal purposes.
 
-## 🤝 Support
+## 🔒 Repository Status
 
-For issues or questions:
-- Email: abhishekbit731@gmail.com
-- LinkedIn: [linkedin.com/in/abhishekbit96](https://www.linkedin.com/in/abhishekbit96/)
+**Visibility:** Private
+**Owner:** Abhishekpan731
+**Deployments:** Public (GitHub Pages + Netlify)
+
+**Note:** While this repository is private, the deployed CV websites are publicly accessible for sharing with recruiters and hiring managers.
+
+## 🤝 Contact
+
+For professional inquiries:
+- **Email:** abhishekbit731@gmail.com
+- **LinkedIn:** [linkedin.com/in/abhishekbit96](https://www.linkedin.com/in/abhishekbit96/)
+- **GitHub:** [github.com/Abhishekpan731](https://github.com/Abhishekpan731)
+
+## 📈 Deployment History
+
+- **March 10, 2026:** Initial deployment with 5 CV versions
+- **Platform:** GitHub Pages + Netlify
+- **Status:** ✅ Active and Live
 
 ---
 
-**Last Updated**: March 2026
+**Last Updated**: March 10, 2026
+**Version:** 1.0.0
+**Optimized for:** FAANG Applications | Senior Software Engineer Roles
 
